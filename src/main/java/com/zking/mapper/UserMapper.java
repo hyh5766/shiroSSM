@@ -28,7 +28,7 @@ public interface UserMapper {
        //根据用户名获取到用户名信息
     public Set<String> getRoleByUserName(String username);
 
-    //根据用户名获取到用户的权限信息
+
     public Set<String> getPermissionByUserName(String username);
 
     //查询用户的所有信息
